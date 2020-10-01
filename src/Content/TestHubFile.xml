@@ -1,0 +1,109 @@
+<Semester_1>
+                <module moduleName = "Analogue &amp; Digital" moduleCode = "CMP-5027A" moduleDescription = "A practical introduction to electronics, this module is structured to consider analogue electronics and digital electronics in turn. Topics you’ll cover include passive and active components, including op-amps, transistors, logic gates, flip-flops and registers. Circuits you’ll study include amplifiers, oscillators, modulators, combinational and sequential logic and state machines. You’ll spend much of your time doing practical work – underpinned by lectures – where you will build prototypes circuits, as well as designing and building Printed Circuit Boards (PCBs).">
+                    <assignment>
+                        <name>Traffic Light</name>
+                        <type>Coursework</type>
+                        <weighting>30</weighting>
+                        <start>09-02-2017</start>
+                        <end>24-03-2021</end>
+                        <description>The aim of this assignment is to design, implement and evaluate a VoIP communication system to operate between two PCs in the Lewin Lab. The assignment is to be tackled in pairs – typically with one person responsible for the sender and the other for the receiver. This brings in issues such as the standardisation of VoIP packets
+                        </description>
+                    </assignment>
+                    <assignment>
+                        <name>Audio Communication</name>
+                        <type>Coursework</type>
+                        <weighting>30</weighting>
+                        <start>09-02-2017</start>
+                        <end>24-03-2021</end>
+                        <description>The aim of this assignment is to design, implement and evaluate a VoIP communication system to operate between two PCs in the Lewin Lab. The assignment is to be tackled in pairs – typically with one person responsible for the sender and the other for the receiver. This brings in issues such as the standardisation of VoIP packets
+                        </description>
+                    </assignment>
+                </module>
+
+                <module moduleName = "Architectures &amp; OS" moduleCode = "CMP-5013A" moduleDescription = "Very hard">
+                    <assignment>
+                        <name>Simple cipher in ARMv-7 assesmbly language</name>
+                        <type>Coursework</type>
+                        <weighting>30</weighting>
+                        <start>09-02-2017</start>
+                        <end>24-03-2021</end>
+                        <description>The aim of this assignment is to design, implement and evaluate a VoIP communication system to operate between two PCs in the Lewin Lab. The assignment is to be tackled in pairs – typically with one person responsible for the sender and the other for the receiver. This brings in issues such as the standardisation of VoIP packets
+                        </description>
+                    </assignment>
+                    <assignment>
+                        <name>Thread-Safe Memory Manager</name>
+                        <type>Coursework</type>
+                        <weighting>30</weighting>
+                        <start>09-02-2017</start>
+                        <end>24-03-2021</end>
+                        <description>The aim of this assignment is to design, implement and evaluate a VoIP communication system to operate between two PCs in the Lewin Lab. The assignment is to be tackled in pairs – typically with one person responsible for the sender and the other for the receiver. This brings in issues such as the standardisation of VoIP packets
+                        </description>
+                    </assignment>
+                </module>
+
+                <module moduleName = "Data Structures &amp; Algorithms" moduleCode = "CMP-5014Y" moduleDescription = "Very hard">
+                    <assignment>
+                        <name>DSA Coursework Assignment 1</name>
+                        <type>Coursework</type>
+                        <weighting>30</weighting>
+                        <start>09-02-2017</start>
+                        <end>24-03-2021</end>
+                        <description>The aim of this assignment is to design, implement and evaluate a VoIP communication system to operate between two PCs in the Lewin Lab. The assignment is to be tackled in pairs – typically with one person responsible for the sender and the other for the receiver. This brings in issues such as the standardisation of VoIP packets
+                        </description>
+                    </assignment>
+                    <assignment>
+                        <name>DSA Word Auto Completion with Tries</name>
+                        <type>Coursework</type>
+                        <weighting>30</weighting>
+                        <start>09-02-2017</start>
+                        <end>24-03-2021</end>
+                        <description>The aim of this assignment is to design, implement and evaluate a VoIP communication system to operate between two PCs in the Lewin Lab. The assignment is to be tackled in pairs – typically with one person responsible for the sender and the other for the receiver. This brings in issues such as the standardisation of VoIP packets
+                        </description>
+                    </assignment>
+                </module>
+
+                <module moduleName = "Networks" moduleCode = "CMP-5037B" moduleDescription = "Very hard">
+                    <assignment>
+                        <name>Voice over IP</name>
+                        <type>Coursework</type>
+                        <weighting>30</weighting>
+                        <start>09-02-2017</start>
+                        <end>24-03-2021</end>
+                        <description>The aim of this assignment is to design, implement and evaluate a VoIP communication system to operate between two PCs in the Lewin Lab. The assignment is to be tackled in pairs – typically with one person responsible for the sender and the other for the receiver. This brings in issues such as the standardisation of VoIP packets
+                        </description>
+                    </assignment>
+                </module>
+
+                <module moduleName = "Programming 2" moduleCode = "CMP-5015Y" moduleDescription = "Very hard">
+                    <assignment>
+                        <name>Monitoring Internet Performance</name>
+                        <type>Coursework</type>
+                        <weighting>30</weighting>
+                        <start>09-02-2017</start>
+                        <end>24-03-2021</end>
+                        <description>The aim of this assignment is to design, implement and evaluate a VoIP communication system to operate between two PCs in the Lewin Lab. The assignment is to be tackled in pairs – typically with one person responsible for the sender and the other for the receiver. This brings in issues such as the standardisation of VoIP packets
+                        </description>
+                    </assignment>
+                </module>
+
+                <module moduleName = "Software Engineering" moduleCode = "CMP-5012B" moduleDescription = "Very hard">
+                    <assignment>
+                        <name>Desktop App Project</name>
+                        <type>Coursework</type>
+                        <weighting>30</weighting>
+                        <start>09-02-2017</start>
+                        <end>24-03-2021</end>
+                        <description>The aim of this assignment is to design, implement and evaluate a VoIP communication system to operate between two PCs in the Lewin Lab. The assignment is to be tackled in pairs – typically with one person responsible for the sender and the other for the receiver. This brings in issues such as the standardisation of VoIP packets
+                        </description>
+                    </assignment>
+                    <assignment>
+                        <name>Web App Project</name>
+                        <type>Coursework</type>
+                        <weighting>30</weighting>
+                        <start>09-02-2017</start>
+                        <end>24-03-2021</end>
+                        <description>The aim of this assignment is to design, implement and evaluate a VoIP communication system to operate between two PCs in the Lewin Lab. The assignment is to be tackled in pairs – typically with one person responsible for the sender and the other for the receiver. This brings in issues such as the standardisation of VoIP packets
+                        </description>
+                    </assignment>
+                </module>
+</Semester_1>

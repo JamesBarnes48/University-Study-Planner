@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <center>
+        <VBox maxHeight="80.0" prefHeight="40.0" BorderPane.alignment="CENTER">
+            <children>
+                <ImageView fitHeight="106.0" fitWidth="232.0" pickOnBounds="true" preserveRatio="true">
+                    <VBox.margin>
+                        <Insets bottom="10.0" left="155.0" top="10.0" />
+                    </VBox.margin>
+                    <image>
+                        <Image url="@../Content/UEAlogo.png" />
+                    </image>
+                </ImageView>
+                <PasswordField fx:id="inputPWord" layoutX="50.0" maxWidth="250.0" prefHeight="40.0" prefWidth="200.0" promptText="Password">
+                    <VBox.margin>
+                        <Insets bottom="5.0" left="150.0" top="5.0" />
+                    </VBox.margin>
+                </PasswordField>
+            </children>
+        </VBox>
+    </center>
+    <bottom>
+        <VBox prefHeight="108.0" prefWidth="618.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="logInBtn" alignment="CENTER" mnemonicParsing="false" prefHeight="25.0" prefWidth="62.0" text="Log In">
+                    <VBox.margin>
+                        <Insets bottom="5.0" left="270.0" top="5.0" />
+                    </VBox.margin>
+                </Button>
+                <Label fx:id="logInStatus">
+                    <VBox.margin>
+                        <Insets left="295.0" />
+                    </VBox.margin>
+                </Label>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Text layoutX="223.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log In to UEA Study Planner" />
+               </children>
+            </AnchorPane>
+            </children>
+        </VBox>
+    </bottom>
+    <top>
+        <VBox prefWidth="618.0" BorderPane.alignment="CENTER">
+            <children>
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4267b2" height="40.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="618.0" />
+            </children>
+        </VBox>
+    </top>
+    <right>
+        <Pane maxHeight="20.0" prefWidth="30.0" BorderPane.alignment="CENTER" />
+    </right>
+    <left>
+        <Pane maxHeight="30.0" maxWidth="30.0" prefWidth="30.0" BorderPane.alignment="CENTER" />
+    </left>
+</BorderPane>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="555.0" prefWidth="763.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Text fx:id="assignmentDescription" layoutX="41.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The requirement of this coursework is to design, implement, test and evaluate an amplitude modulation communication system for audio signals. This is a group project with each group containing two people. The coursework is based on the amplitude modulation communication system introduced in Lecture A4 with the transmitter and receiver sides shown in Figure 1. Instead of communicating wirelessly (as with mobile communications, wi-fi, Bluetooth) the channel we will use is a metal bar. Licensing regulations and the complexity of building radio transmitters and receivers make radio communication beyond the scope of the module " wrappingWidth="685.13671875">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+      <Text layoutX="274.0" layoutY="520.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Percentage to current Milestone" />
+      <ProgressBar fx:id="milestoneProgressBar" layoutX="483.0" layoutY="504.0" prefWidth="200.0" progress="0.0" />
+      <Button fx:id="buttonReading" layoutX="39.0" layoutY="313.0" mnemonicParsing="false" onAction="#onTaskClick" prefHeight="50.0" prefWidth="150.0" text="Reading" />
+      <Button fx:id="buttonWriting" layoutX="39.0" layoutY="378.0" mnemonicParsing="false" onAction="#onTaskClick" prefHeight="50.0" prefWidth="150.0" text="Writing" />
+      <Button fx:id="buttonProgramming" layoutX="39.0" layoutY="445.0" mnemonicParsing="false" onAction="#onTaskClick" prefHeight="50.0" prefWidth="150.0" text="Programming" />
+      <Button fx:id="buttonWatching" layoutX="203.0" layoutY="313.0" mnemonicParsing="false" onAction="#onTaskClick" prefHeight="50.0" prefWidth="150.0" text="Watching" />
+      <Button fx:id="buttonSurveying" layoutX="203.0" layoutY="378.0" mnemonicParsing="false" onAction="#onTaskClick" prefHeight="50.0" prefWidth="150.0" text="Surveying" />
+      <Button fx:id="buttonCreating" layoutX="365.0" layoutY="378.0" mnemonicParsing="false" onAction="#onTaskClick" prefHeight="50.0" prefWidth="150.0" text="Creating" />
+      <Button fx:id="buttonResearching" layoutX="365.0" layoutY="313.0" mnemonicParsing="false" onAction="#onTaskClick" prefHeight="50.0" prefWidth="150.0" text="Researching" />
+      <Button fx:id="editMilestone" layoutX="570.0" layoutY="313.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="Edit Milestone" />
+      <Button fx:id="viewGanttButton" layoutX="570.0" layoutY="378.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="View Gantt Chart" />
+      <Button fx:id="setRequirementsButton" layoutX="570.0" layoutY="345.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="Set Requirements" />
+      <Label fx:id="assignmentLabel" layoutX="39.0" layoutY="61.0" text="Title of Current Module + Assignment" textFill="#e48d31">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <ToolBar layoutX="2.0" prefHeight="40.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <Button fx:id="helpButton" mnemonicParsing="false" text="Help" />
+              <Button fx:id="goToPreviousScene" mnemonicParsing="false" onAction="#onBackClick" text="Back" />
+        </items>
+      </ToolBar>
+    </children>
+</AnchorPane>

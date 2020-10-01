@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ScrollPane prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <content>
+            <AnchorPane prefHeight="997.0" prefWidth="513.0">
+               <children>
+                  <AnchorPane layoutX="20.0" layoutY="21.0" prefHeight="183.0" prefWidth="542.0">
+                     <children>
+                        <Text fill="#e48d31" layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="How do I add an Activity?" wrappingWidth="241.43505859375">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="14.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To add an Activity (Something you need to do!) into the system simply click on the module that you wish to create the activity within, followed by clicking the Assignment that the activity will be associated with. You are then shown a list of task categories, pick the task that best aligns with the activity you are entering. From this screen here you can then click “Create New Activity” and simply fill in the boxes provided. The Activity will now appear also automatically on your Gantt Chart.TIP: Always include a Name and a Time length for your activity. " wrappingWidth="370.2060546875" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="20.0" layoutY="229.0" prefHeight="183.0" prefWidth="549.0">
+                     <children>
+                        <Text fill="#e48d31" layoutX="17.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="How do I log more hours that I have done for an Activity? " wrappingWidth="515.2272644042969">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="14.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="On the same page as the “Create New Activity” button, on the right-hand side there is a second “Edit” button this button allows you to reopen the window that you created the Activity in. Select the activity you wish to change and press this “Edit Activity” Button. From here you can remove the current number of hours value and update it to represent the current level of work done." wrappingWidth="370.2060546875" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="19.0" layoutY="396.0" prefHeight="183.0" prefWidth="542.0">
+                     <children>
+                        <Text fill="#e48d31" layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What is a Gantt Chart?" wrappingWidth="257.43505859375">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="14.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A Gantt Chart can be used as a visual guide to how much more work a project requires. It automatically reads in all your Tasks for a particular assignment and arranges them in a convenient order." wrappingWidth="370.2060546875" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="18.0" layoutY="527.0" prefHeight="183.0" prefWidth="542.0">
+                     <children>
+                        <Text fill="#e48d31" layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What is a Milestone?" wrappingWidth="268.4125442504883">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="14.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Milestones are related to a number of set tasks. E.g. Reading, Writing, Creating, etc. Tasks can be put together to create a milestone, when you complete all the tasks you have put into a milestone it has been met. They can be used to create easy goals." wrappingWidth="370.2060546875" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="20.0" layoutY="668.0" prefHeight="183.0" prefWidth="542.0">
+                     <children>
+                        <Text fill="#e48d31" layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What is a Requirement? " wrappingWidth="249.20194625854492">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="14.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A requirement can be used to set an order that you wish to complete your tasks in. For example, if before you can write an essay you might need to research first. A requirement allows you to set this order, this can then be displayed on the Gantt Chart." wrappingWidth="375.6947956085205" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="23.0" layoutY="814.0" prefHeight="122.0" prefWidth="547.0">
+                     <children>
+                        <Text fill="#e48d31" layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What does the Statistic Screen show? " wrappingWidth="428.9582633972168">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="14.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Bar Chart shows your overall number of hours logged per Module. Try to keep working on all modules as evenly as possible! The Pie Chart shows the number of assignments that have been set for each module." wrappingWidth="375.6947956085205" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
