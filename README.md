@@ -1,2 +1,2 @@
-University Study Planner
-Study planner desktop application for UEA students to manage their study timetable. Created using javaFX.
+
+University Study PlannerStudy planner desktop application for UEA students to manage their study timetable. Created using javaFX.
